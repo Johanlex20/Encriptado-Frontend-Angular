@@ -1,0 +1,175 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+  height: 100vh;
+  width: 100%;
+  padding: 15px;
+
+  background-color: var(--BakcgroundColor);
+}
+
+.header{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.header img{
+    margin: 0;
+}
+
+.container__text{
+    place-items: center;
+    background-color:transparent;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.card-flex{
+height: 100%;
+}
+  
+.card-flex form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.text-area{
+    height: 100%;
+    width: 100%;
+    font-family: var(--FuentePrincipal);
+    font-size: 32px;
+    color: var(--ColorSecundario);
+  }
+  textarea::placeholder {
+    color:var(--ColorSecundario); 
+    font-family: var(--FuentePrincipal);
+  }
+  
+  .text-area textarea{
+    width: 100%;
+    height: 100%;
+    font-family: var(--FuentePrincipal);
+    font-size: 32px;
+    color: var(--ColorSecundario); 
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .grupo-img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .grupo-img h2{
+  font-family: var(--FuentePrincipal);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  }
+  
+  .grupo-btn img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  
+  .btn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grupo-btn{
+    height: fit-conten;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    opacity: 80%;
+    padding-bottom: 50px;
+  }
+  .button1{
+    width: 100%;
+    height: 60px;
+    border-radius: 24px;
+    padding: 14px;
+    background-color: var(--ColorSecundario);
+    color:var(--ColorTerciario) ;
+  }
+
+  .button2{
+    width: 100%;
+    height:60px;
+    border-radius: 24px;
+    padding: 14px;
+    background-color:var(--ColorTerciario) ;
+    color:var(--ColorSecundario);
+  }
+  
+  .button1{
+    width: 100%;
+    height: 60px;
+    border-radius: 24px;
+    padding: 14px;
+    background-color: var(--ColorSecundario);
+    color:var(--ColorTerciario) ;
+  }
+  
+  .button{
+    width: 100%;
+    height:60px;
+    border-radius: 24px;
+    padding: 14px;
+    background-color:var(--ColorTerciario) ;
+    color:var(--ColorSecundario);
+  }
+  
+  .grupo-btn .button1:focus{
+    background-color: var(--ColorEfectoButton);
+    color:var(--ColorTerciario) ;
+  }
+
+  .grupo-btn .button:focus{
+    background-color: var(--ColorEfectoButton);
+    color:var(--ColorSecundario) ;
+  }
+
+.container__resultado{
+    background-color:var(--ColorTerciario);
+    border-radius: 25px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--FuentePrincipal);
+}
+
+.container__resultado h1{
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.container__resultado p{
+  font-size: 16px;
+  max-width: 100%; 
+  max-height: 100px; 
+  padding: 10px;
+  overflow: auto; 
+  overflow-wrap: break-word; /* Permite que el texto se divida en múltiples líneas */
+  word-wrap: break-word; /* Para compatibilidad con navegadores más antiguos */
+  white-space: normal;
+}
+
+.container__resultado img{
+  display: none;
+}

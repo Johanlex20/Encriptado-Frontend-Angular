@@ -1,0 +1,24 @@
+:root{
+    --FuentePrincipal: 'Inter', sans-serif;
+    --BakcgroundColor: #F3F5FC;
+    --ColorSecundario: #0A3871;
+    --ColorTerciario: #FFFFFF;
+    --ColorEfectoButton:#D8DFE8;
+  
+    --ColorFuentePrimario: #343A40;
+    --ColorFuenteSecundario: #495057;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+}
+
+
+
+
